@@ -1,0 +1,190 @@
+.college-image
+{
+  width: 100%;
+}
+
+.college-image img
+{
+  width: 100%;
+  height: 100%;
+}
+.principal-image
+{
+    padding: 40px;
+}
+.principal-image img
+{
+    width: 80%;
+    height: 80%;
+    border-radius: 4%;
+ box-shadow: 0 2.8px 2.2px rgba(0 ,0 ,0 ,0.034),
+    0 6.7px 5.3px rgba(0 ,0 ,0 ,0.048),
+    0 12.5px 10px rgba(0 , 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0 ,0 ,0 ,0.072),
+    0 41.8px 33.4px rgba(0 ,0 ,0 ,0.0866),
+    0 100px 80px rgba(0 ,0 ,0 ,0.12);;
+}
+.row3
+{
+    padding: 20px;
+}
+.principal-detail
+ {
+     text-align: center;
+     padding: 37px;
+ }
+ .principal-detail h1
+ {
+     letter-spacing: 4px;
+     font-size: 49px;
+ }
+ .principal-detail p
+{
+   margin-top: 30px;
+}
+.card
+{
+    width: 16.3rem;
+}
+@media only screen and (max-width:766px) and (min-width:420px)
+{
+    .principal-image img
+    {
+        margin:20px 0 0 45px;
+    }
+}
+@media only screen and (max-width:1200px) and (min-width:991px)
+{
+    .principal-detail h1
+    {
+        letter-spacing: 3px;
+        font-size: 41px;
+    }
+    .principal-image img
+    {
+        width: 100%;
+    }
+    .card
+    {
+       width: 16rem;
+    }
+    .row3
+    {
+        padding: 0px;
+        margin-right: -110px;
+        margin-left: 9px;
+    }
+}
+@media only screen and (max-width:990px) and (min-width:768px)
+{
+    .principal-image
+    {
+        padding: 14px;
+    }
+    .principal-detail
+    {
+        padding: 7px;
+    }
+    .principal-detail h1
+    {
+        letter-spacing: 2px;
+        font-size: 38px;
+    }
+    .principal-image img
+    {
+        width: 100%;
+    }
+    .card
+    {
+       width: 15rem;
+    }
+    .row3
+    {
+        padding: 0px;
+        margin-right: -250px;
+        margin-left: 0px;
+    }
+    .row2
+    {
+        margin-top: 12px;
+    }
+}
+@media only screen and (max-width:766px) and (min-width:420px)
+{
+    .col-md-4
+    {
+        display: grid;
+        place-items: center;
+ 
+     }
+ .college-image img
+{
+  width: 100%;
+  height: 100%;
+}
+     .principal-image img
+    {
+        width: 52%;
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+    .principal-image
+    {
+        padding: 14px;
+    }
+
+}
+@media only screen and (max-width:419px) and (min-width:340px)
+{
+    .principal-image img
+    {
+        width: 63%;
+        margin-left:63px;
+        margin-top: 42px;
+    }
+    .principal-image
+    {
+        padding: 14px;
+    }
+    .principal-detail h1
+    {
+        letter-spacing: 2px;
+        font-size: 38px;
+    }
+    .col-md-4
+    {
+        display: grid;
+        place-items: center;
+ 
+     }
+}
+@media only screen and (max-width:340px) and (min-width:240px)
+{
+    .principal-image img
+    {
+        width: 15rem;
+    margin-left: 55px;
+    margin-top: 36px;
+    }
+    .principal-image
+    {
+        padding: 14px;
+    }
+    .principal-detail h1
+    {
+        letter-spacing: 2px;
+    font-size: 31px;
+    } 
+    .principal-detail
+    {
+        padding: 12px;
+    margin-left: 60px;
+    }
+    .college-image img
+    {
+        width: 412px;
+        margin-left: -12px;
+        height: 100%;
+    }
+   
+}
